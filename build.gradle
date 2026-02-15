@@ -17,10 +17,9 @@ buildscript {
 }
 
 allprojects {
-    repositories {
-        google()
-        jcenter()
-        
+  repositories {
+        google()        // Make sure this is here
+        mavenCentral()  // Replace jcenter() with this
     }
 }
 
