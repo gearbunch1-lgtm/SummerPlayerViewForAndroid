@@ -17,11 +17,10 @@ buildscript {
 }
 
 allprojects {
-    repositories {
-        google()
-        jcenter()
-        
-    }
+   repositories {
+    google()
+    mavenCentral()
+}
 }
 
 task clean(type: Delete) {
